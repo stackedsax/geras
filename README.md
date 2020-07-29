@@ -4,8 +4,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 
-Geras provides a [Thanos](https://thanos.io) Store API for the [OpenTSDB](http://opentsdb.net) HTTP API.
-This makes it possible to query OpenTSDB via PromQL, through Thanos.
+Geras provides a [Thanos Store API](https://thanos.io/components/store.md/) for the [OpenTSDB HTTP API](http://opentsdb.net/docs/build/html/api_http/index.html). This makes it possible to query [OpenTSDB](http://opentsdb.net/) via [PromQL](https://prometheus.io/docs/prometheus/latest/querying/basics/), through [Thanos](https://thanos.io/).
 
 Since Thanos's StoreAPI is designed for unified data access and is not too Prometheus specific,
 Geras is able to provide an implementation which proxies onto the OpenTSDB HTTP API, giving the
